@@ -14,7 +14,7 @@ columnas pares y multiplicar por 3, las columnas impares.
 6. Dadas dos matrices, colocar las filas de la segunda matriz como filas de la primera.
 
 
-Resolver los siguientes ejercicios en Java:
+Resolver los siguientes ejercicios con el lenguaje Java:
 
 7. crear clase Persona con los siguientes atributos:
    nombre
