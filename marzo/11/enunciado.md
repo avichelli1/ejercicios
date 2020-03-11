@@ -12,3 +12,26 @@ Resolver los siguientes ejercicios con el lenguaje c++:
 5. Dada una matriz que ingresa como parámetro, multiplicar por 2 las 
 columnas pares y multiplicar por 3, las columnas impares. 
 6. Dadas dos matrices, colocar las filas de la segunda matriz como filas de la primera.
+
+
+Resolver los siguientes ejercicios en Java:
+
+7. crear clase Persona con los siguientes atributos:
+   nombre
+   edad
+   dni
+   telefono
+   dirección
+
+   Declarar e implementar 3 tipos de constructores:
+   Uno por defecto.
+   Uno con parámetro string.
+   Otro con los 5 parámetros correspondientes a todos los atributos.
+   Declarar e implementar los getters y setters.
+   
+   Agregar métodos con los siguientes nombres:
+   esMayorDeEdad
+   sonLaMismaPersona
+   tienenLaMismaEdad
+
+   Agregar dos métodos a elección.
