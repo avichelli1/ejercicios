@@ -16,7 +16,7 @@ columnas pares y multiplicar por 3, las columnas impares.
 
 Resolver los siguientes ejercicios con el lenguaje Java:
 
-7. crear clase Persona con los siguientes atributos:
+7. crear la clase Persona con los siguientes atributos:
    nombre
    edad
    dni
@@ -33,5 +33,10 @@ Resolver los siguientes ejercicios con el lenguaje Java:
    esMayorDeEdad
    sonLaMismaPersona
    tienenLaMismaEdad
-
-   Agregar dos métodos a elección.
+   
+8. Dentro de la función main, crear 3 instancias distintas
+   de la clase Persona. 
+   A la primer instancia, cambiarle el valor de la edad por el doble de la misma.
+   A la segunda instancia, cambiarle el valor del teléfono.
+   Con respecto a la terce instancia, imprimir por consola todos sus datos.
+   
