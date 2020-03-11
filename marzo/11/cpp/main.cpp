@@ -11,6 +11,10 @@ int main() {
     a.push_back(2);
     a.push_back(3);
     imprimirValores(a);
+    
+    a.pop_back();
+    a.pop_back();
+    imprimirValores(a);
 
 
     return 0;
