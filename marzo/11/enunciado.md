@@ -11,7 +11,9 @@ Resolver los siguientes ejercicios con el lenguaje c++:
 4. imprimir todos los valores del vector que se ingresa como parámetro.
 5. Dada una matriz que ingresa como parámetro, multiplicar por 2 las 
 columnas pares y multiplicar por 3, las columnas impares. 
-6. Dadas dos matrices, colocar las filas de la segunda matriz como filas de la primera.
+6. Dadas dos matrices, colocar las columnas de la segunda matriz como filas de la primera.
+ejemplo:
+   
 
 
 Resolver los siguientes ejercicios con el lenguaje Java:
@@ -39,4 +41,15 @@ Resolver los siguientes ejercicios con el lenguaje Java:
    A la primer instancia, cambiarle el valor de la edad por el doble de la misma.
    A la segunda instancia, cambiarle el valor del teléfono.
    Con respecto a la terce instancia, imprimir por consola todos sus datos.
+   
+   $$
+\left(\begin{array}{cc} 
+0.8944272 & 0.4472136\\
+-0.4472136 & -0.8944272
+\end{array}\right)
+\left(\begin{array}{cc} 
+10 & 0\\ 
+0 & 5
+\end{array}\right)
+$$ 
    
