@@ -1,7 +1,5 @@
 Nombre y apellido:
 
-<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-
 Cuáles son las expectativas que tiene con respecto a la materia?
 
 Qué cosas relacionadas con la computación te gustaría aprender a crear?
@@ -14,9 +12,16 @@ Resolver los siguientes ejercicios con el lenguaje c++:
 5. Dada una matriz que ingresa como parámetro, multiplicar por 2 las 
 columnas pares y multiplicar por 3, las columnas impares. 
 6. Dadas dos matrices, colocar las columnas de la segunda matriz como filas de la primera.
-ejemplo:
-  
 
+Ejemplo: 
+
+matriz A 1 2 3         matriz B 1 2 3         matriz resultante  1 2 3    
+         4 5 6                  1 2 3                            4 5 6
+         7 8 9                  1 2 3                            7 8 9
+                                                                 1 1 1
+                                                                 2 2 2
+                                                                 3 3 3
+  
 Resolver los siguientes ejercicios con el lenguaje Java:
 
 7. crear la clase Persona con los siguientes atributos:
@@ -42,15 +47,4 @@ Resolver los siguientes ejercicios con el lenguaje Java:
    A la primer instancia, cambiarle el valor de la edad por el doble de la misma.
    A la segunda instancia, cambiarle el valor del teléfono.
    Con respecto a la terce instancia, imprimir por consola todos sus datos.
-   
-   $$
-\left(\begin{array}{cc} 
-0.8944272 & 0.4472136\\
--0.4472136 & -0.8944272
-\end{array}\right)
-\left(\begin{array}{cc} 
-10 & 0\\ 
-0 & 5
-\end{array}\right)
-$$ 
    
