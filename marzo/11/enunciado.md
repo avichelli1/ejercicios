@@ -1,5 +1,7 @@
 Nombre y apellido:
 
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
 Cuáles son las expectativas que tiene con respecto a la materia?
 
 Qué cosas relacionadas con la computación te gustaría aprender a crear?
@@ -13,8 +15,7 @@ Resolver los siguientes ejercicios con el lenguaje c++:
 columnas pares y multiplicar por 3, las columnas impares. 
 6. Dadas dos matrices, colocar las columnas de la segunda matriz como filas de la primera.
 ejemplo:
-   
-
+  
 
 Resolver los siguientes ejercicios con el lenguaje Java:
 
