@@ -79,8 +79,8 @@ correspondiente al índice 1.
 listaDePersonas.size();
 ```
 * cambiar valor existente en el arraylist. 
-... Primer parámetro: índice correspondiente al elemento a reemplazar.
-... Segundo parámetro: elemento que será insertado en el arraylist.
+...Primer parámetro: índice correspondiente al elemento a reemplazar.
+...Segundo parámetro: elemento que será insertado en el arraylist.
 ```java
 listaDePersonas.set(1,p3);
 ```
