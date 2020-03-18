@@ -65,6 +65,8 @@ public class FilaParaCaja {
 listaDePersonas.add(p1);
 listaDePersonas.add(p2);
 ```
+
+
 * borrar elemento de la lista. Se pasa como parámetro el índice 
 correspondiente al elemento a borrar.
 ```java
@@ -74,16 +76,24 @@ listaDePersonas.remove(1);
 Se ha eliminado a "p2" pues se encontraba en la posición número 2 
 correspondiente al índice 1.
 
+
+
 * método que retorna el tamaño del arraylist
 ```java
 listaDePersonas.size();
 ```
+
+
 * cambiar valor existente en el arraylist. 
-...Primer parámetro: índice correspondiente al elemento a reemplazar.
-...Segundo parámetro: elemento que será insertado en el arraylist.
+
+Primer parámetro: índice correspondiente al elemento a reemplazar.
+
+Segundo parámetro: elemento que será insertado en el arraylist.
 ```java
 listaDePersonas.set(1,p3);
 ```
+
+
 * eliminar todos los elementos del arraylist:
 ```java
 listaDePersonas.clear();
