@@ -2,11 +2,11 @@
 Cada instancia de la clase ArrayList tiene un comportamiento similar
 a los vectores que vieron el año pasado.
 
-En ésta materia, los vamos a utlizar para representar listas ordenadas de 
+En esta materia, los vamos a utlizar para representar listas ordenadas de 
 cualquier tipo de Objeto. Por ejemplo: Personas, Productos, Animales, etc.
 
 En la siguiente línea se crea una lista de Personas. 
-El tipo de elementos que contendrá la lista es especificada entre los símbolos ```< > ```
+El tipo de elementos que contendrá la lista es especificada entre los símbolos ```< >```
 ```java
 ArrayList<Persona> listaDePersonas = new ArrayList<>();
 
@@ -31,7 +31,7 @@ una lista de personas.
 
 ```java
 
-packages banco.componentes;
+package banco.componentes;
 import java.util.ArratList;
 
 public class FilaParaCaja {
@@ -89,7 +89,7 @@ listaDePersonas.set(1,p3);
 listaDePersonas.clear();
 ```
 
-* método que retorna ```true```si el arraylist está vacío y
+* método que retorna ```true``` si el arraylist está vacío y
 retorna ```false``` si el arraylist tiene al menos un elemento.
 ```java
 listaDePersonas.isEmpty();
