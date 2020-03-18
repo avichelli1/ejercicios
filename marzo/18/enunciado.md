@@ -1,14 +1,15 @@
 
 1. Crear la clase Hospital.
  
-    * Atributos:
+    *Atributos:
+    
 	- lista de pacientes por atender
         - nombre del hospital
         - lista de pacientes atendidos
 	- lista de doctores que están atendiendo pacientes en el hospital
 	- número de camas disponibles
 
-    Métodos:
+    *Métodos:
 	- método que retorne la cantidad total de pacientes atendidos
         - método que retorne el nombre, apellido y edad de los pacientes que están
          siendo atendidos actualmente
