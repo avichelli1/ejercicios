@@ -17,3 +17,9 @@
 	- método que elimine pacientes atendidos de la lista "pacientes por atender"
 	- método para agregar pacientes atendidos a la lista "pacientes atendidos"
         - método que indique el número de camas disponibles en el hospital
+
+2. Crear la carpeta "sistemas" y dentro de ésta, crear la carpeta "administracion".
+   Colocar la clase Hospitales dentro de la carpeta "administracion" y empaquetarla
+   usando la palabra reservada "package".
+   
+  
