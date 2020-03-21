@@ -36,14 +36,14 @@ package clases.seresvivos.animales;
 
 ### Formas de crear los paquetes
 
-#### Forma 1 con IntelliJ
+#### Forma 1 (con IntelliJ)
 1. Abrir proyecto creado con la IDE
 2. click derecho, seleccionar "new"
 3. luego, seleccionar "package" e ingresar el nombre del paquete
 4. escribir ```package``` y su respectiva ubicación 
 en las clases pertenecientes al nuevo paquete
 
-#### Forma 2 con IntelliJ
+#### Forma 2 (con IntelliJ)
 1. crear la clase en la carpeta "src"
 2. escribir la sentencia ```package``` con su respectiva ubicación
 en la línea 1.
@@ -53,7 +53,7 @@ en la línea 1.
 6. seleccionar la opción "move to package ..." y se crearán la/s
 carpetas o paquetes de forma automática
 
-#### Forma 3 sin IntelliJ
+#### Forma 3 (sin IntelliJ)
 1. Desde el explorador de archivos, crear las carpetas una por una
 según la organización deseada. 
 2. Y colocar en todas las clases su correspondiente sentencia
