@@ -6,7 +6,6 @@ package
 * la palabra ``` package ``` es una palabra reservada para indicar 
 donde está ubicada una clase con respecto a la/s carpeta/s donde
 fue guardada.
-
 * tal indicación se escribe en la primer línea
 
 #### Ejemplo 1:
@@ -16,6 +15,37 @@ lo siguiente
 ```java
 package clases;
 ```
+#### La clase:
+```java
+package clases;
+
+public class Persona{
+
+    private String nombre;
+    private int edad;
+    
+    public Persona(String nombre, int edad) {
+        this.nombre = nombre;
+        this.edad = edad;
+    }
+    
+    public String getNombre() {
+        return nombre;
+    }
+
+    public int getEdad() {
+        return edad;
+    }
+
+    public void setEdad(int edad) {
+        this.edad = edad;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+}
+```
 
 #### Ejemplo 2:
 La carpeta llamada "clases" contiene una carpeta llamada "seresvivos".
@@ -23,6 +53,36 @@ Y la carpeta "seresvivos" contiene la clase "Leon.java".
 Entonces, la primer línea de dicha clase sería:
 ```java
 package clases.seresvivos;
+```
+#### La clase:
+```java
+package clases.seresvivos;
+
+public class Leon {
+    private String nombre;
+    private float peso;
+
+    public Leon(String nombre, float peso) {
+        this.nombre = nombre;
+        this.peso = peso;
+    }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public float getPeso() {
+        return peso;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public void setPeso(float peso) {
+        this.peso = peso;
+    }
+}
 ```
 
 #### Ejemplo 3:
@@ -33,6 +93,39 @@ Entonces, la primer línea de dicha clase sería:
 ```java
 package clases.seresvivos.animales;
 ```
+#### La clase:
+```java
+package clases.seresvivos.animales;
+
+public class Leon {
+    private String nombre;
+    private float peso;
+
+    public Leon(String nombre, float peso) {
+        this.nombre = nombre;
+        this.peso = peso;
+    }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public float getPeso() {
+        return peso;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public void setPeso(float peso) {
+        this.peso = peso;
+    }
+}
+```
+### A tener en cuenta:
+* Los nombres de los paquetes siempre se escriben en minúsculas.
+* Los nombres de las clases siempre deben empezar con letra mayúscula.
 
 ### Formas de crear los paquetes
 
@@ -43,10 +136,13 @@ package clases.seresvivos.animales;
 4. escribir ```package``` y su respectiva ubicación 
 en las clases pertenecientes al nuevo paquete
 
+##### Posible inconveniente: 
+* 
+
 #### Forma 2 (con IntelliJ)
 1. crear la clase en la carpeta "src"
 2. escribir la sentencia ```package``` con su respectiva ubicación
-en la línea 1.
+en la línea 1 del archivo correspondiente a la clase
 3. esperar a que la línea se subraye en rojo
 4. colocar el cursor en dentro de la/s palabra/s subrayadas
 5. apretar alt + enter
