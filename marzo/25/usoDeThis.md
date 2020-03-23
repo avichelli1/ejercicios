@@ -98,7 +98,7 @@ Una forma equivalente de escribir el método "sonIguales" es:
 ```
 
 #### Ejemplo 3:
-Veamos ahora un ejemplo donde se puede utilizar ```thispara invocar métodos definidos
+Veamos ahora un ejemplo donde se puede utilizar ```this``` para invocar métodos definidos
 en la misma clase.
 
 ```java
