@@ -1,5 +1,5 @@
 
-#### Uso de this
+#### Uso de ```this```
 Recuerden que ```this``` es una palabra reservada del lenguaje
 para referirse a la clase donde se encuentra escrita tal palabra.
 
@@ -13,7 +13,6 @@ public class Persona {
         this.nombre = nombre;
         this.edad = edad;
     }
-    ...
 }
 ```
 ##### Observaciones:
@@ -48,6 +47,22 @@ public class Persona {
         this.edad = edad;
     }
     
+    public String getNombre() {
+        return nombre;
+    }
+
+    public int getEdad() {
+        return edad;
+    }
+
+    public void setEdad(int edad) {
+        this.edad = edad;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+    
     public boolean sonPersonasIguales(Persona p){
     
         boolean nombresIguales = this.nombre == p.getNombre();
@@ -80,11 +95,10 @@ Una forma equivalente de escribir el método "sonIguales" es:
         boolean sonIguales = this.nombre == p.getNombre() && this.edad == p.getEdad();
         return sonIguales;
     }    
-}
 ```
 
 #### Ejemplo 3:
-Veamos ahora un ejemplo donde se puede utilizar para invocar métodos definidos
+Veamos ahora un ejemplo donde se puede utilizar ```thispara invocar métodos definidos
 en la misma clase.
 
 ```java
@@ -98,6 +112,22 @@ public class Persona {
         this.edad = edad;
     }
     
+    public String getNombre() {
+        return nombre;
+    }
+
+    public int getEdad() {
+        return edad;
+    }
+
+    public void setEdad(int edad) {
+        this.edad = edad;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+    
     public boolean sonPersonasIguales(Persona p){
     
         boolean nombresIguales = this.nombre == p.getNombre();
@@ -107,7 +137,22 @@ public class Persona {
         return sonIguales;
     }
     
-    public 
+    public boolean esMayorDeEdad(){
+        
+        boolean esMayor = this.getEdad() >= 18;
+        return esMayor;
+    }
 }
 ```
+* Vemos que en el método ```esMayorDeEdad()``` se realiza una invocación
+o llamado al método ```getEdad()```, también implementado (definido) en la clase Persona, usando la palabra reservada ```this```. 
+* Para realizar llamados a métodos implementados en la misma clase, el uso de la palabra reservada ```this``` es opcional.
+* Una implementación equivalente al método ```esMayorDeEdad()```, es:
+```java
+    public boolean esMayorDeEdad(){
 
+        boolean esMayor = this.getEdad() >= 18;
+    -   return esMayor;
+    }
+}
+```
