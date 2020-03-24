@@ -151,7 +151,7 @@ o llamado al método ```getEdad()```, también implementado (definido) en la cla
 ```java
     public boolean esMayorDeEdad(){
 
-        boolean esMayor = this.getEdad() >= 18;
+        boolean esMayor = this.edad >= 18;
     -   return esMayor;
     }
 }
