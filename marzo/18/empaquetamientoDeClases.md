@@ -142,18 +142,21 @@ dentro de un paquete ya creado.
 A modo de ejmplo, describiré los pasos para crear dos paquetes llamados ```carnivoros```
 y ```herbivoros```, dentro del paquete llamado ```animales```.
 Los pasos para hacerlo son:
-1. crear el paquete ```animales``` usando la forma 1.
-2. click derecho en el paquete creado
-3. click en "new"
-4. click en package
+1. Crear el paquete ```animales``` usando la forma 1.
+2. Click derecho en el paquete creado
+3. Click en "new"
+4. Click en package
+
 Se desplegará un campo que tendrá escrito lo siguiente: ```animales.```.
-5. sin borrar nada, agregar la palabra ```carnivoros``` y apretar la tecla enter.
+5. Sin borrar nada, agregar la palabra ```carnivoros``` y apretar la tecla enter.
+
 Notarán que les quedó un paquete llamado ```animales.carnivoros```
-6. para crear al segundo paquete dentro de ```animales```, click derecho
+6. Para crear al segundo paquete dentro de ```animales```, click derecho
 en ```animales.carnivoros```
-7. elegir la opción "new" y luego la opción "package"
+7. Elegir la opción "new" y luego la opción "package"
+
 Se desplegará un campo que tendrá escrito lo siguiente: ```animales.carnivoros```.
-8. borrar del campo la palabra  ```carnivoros``` y agregar la palabra ```herbivoros```.
+8. Borrar del campo la palabra  ```carnivoros``` y agregar la palabra ```herbivoros```.
 Apretar la recla enter y luego verán que tendrán creados los paquetes como queríamos.
 
 #### Forma 2 (con IntelliJ)
