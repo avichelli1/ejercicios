@@ -139,7 +139,7 @@ en las clases pertenecientes al nuevo paquete
 ##### Posible inconveniente con IntelliJ:
 Tal vez, al usar la IDE, se les presente el problema de cómo crear más de un paquete
 dentro de un paquete ya creado.
-A modo de ejmplo, describiré los pasos para crear dos paquetes llamados ```carnivoros```
+A modo de ejemplo, describiré los pasos para crear dos paquetes llamados ```carnivoros```
 y ```herbivoros```, dentro del paquete llamado ```animales```.
 Los pasos para hacerlo son:
 1. Crear el paquete ```animales``` usando la forma 1.
@@ -160,7 +160,7 @@ en ```animales.carnivoros```.
 Se desplegará un campo que tendrá escrito lo siguiente: ```animales.carnivoros```.
 
 8. Borrar del campo la palabra  ```carnivoros``` y agregar la palabra ```herbivoros```.
-Apretar la recla enter y luego verán que tendrán creados los paquetes como queríamos.
+Apretar la recla enter. Luego verán que tendrán creados los paquetes como queríamos.
 
 #### Forma 2 (con IntelliJ)
 1. crear la clase en la carpeta "src"
