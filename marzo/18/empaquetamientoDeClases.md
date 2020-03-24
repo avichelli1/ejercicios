@@ -148,14 +148,17 @@ Los pasos para hacerlo son:
 4. Click en package
 
 Se desplegará un campo que tendrá escrito lo siguiente: ```animales.```.
+
 5. Sin borrar nada, agregar la palabra ```carnivoros``` y apretar la tecla enter.
 
-Notarán que les quedó un paquete llamado ```animales.carnivoros```
+Notarán que les quedó un paquete llamado ```animales.carnivoros```.
+
 6. Para crear al segundo paquete dentro de ```animales```, click derecho
-en ```animales.carnivoros```
-7. Elegir la opción "new" y luego la opción "package"
+en ```animales.carnivoros```.
+7. Elegir la opción "new" y luego la opción "package".
 
 Se desplegará un campo que tendrá escrito lo siguiente: ```animales.carnivoros```.
+
 8. Borrar del campo la palabra  ```carnivoros``` y agregar la palabra ```herbivoros```.
 Apretar la recla enter y luego verán que tendrán creados los paquetes como queríamos.
 
