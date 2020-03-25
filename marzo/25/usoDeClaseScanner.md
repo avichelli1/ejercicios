@@ -3,7 +3,7 @@
 Es una clase que nos provee la funcionalidad de poder ingresar
 valores (string, boolean, int, float, etc) mediante el teclado.
 
-Para poder realzar ésto, primero es necesario importar la clase
+Para poder realzar esto, primero es necesario importar la clase
 declarando la sentencia en la clase donde se utilizará:
 
 ```java
@@ -38,8 +38,7 @@ ingresar un número real por teclado.
 float realIngresado = ingreso.nextFloat();
 ```
 ##### comentario:
-Al ingresar el número real, se debe usar ```,``` para representarlo. 
-No se puede usar el ```.``` como sustituto de la coma. 
+Al ingresar el número real, no se puede usar el ```.``` como sustituto de la coma. 
 
 #### Ejemplo:
 Lo siguiente es una aplicación que sirve para ingresar un string,
