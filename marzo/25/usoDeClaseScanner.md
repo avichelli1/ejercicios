@@ -45,7 +45,8 @@ Al ingresar el número real, no se puede usar el ```.``` como sustituto de la co
 
 #### Ejemplo:
 Lo siguiente es una aplicación que sirve para ingresar un string,
-un int y un float por consola.
+un int y un float por consola. Les recomiendo ejecutarlo para experimentar
+y ver cómo funciona.
 
 ```java
 import java.util.Scanner;
@@ -76,4 +77,4 @@ public class Main{
 
     }
 }
-```
+
