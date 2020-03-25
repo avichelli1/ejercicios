@@ -1,4 +1,4 @@
-Clase Scanner
+#### Clase Scanner
 
 Es una clase que nos provee la funcionalidad de poder ingresar
 valores (string, boolean, int, float, etc) mediante el teclado.
