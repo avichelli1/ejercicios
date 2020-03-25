@@ -4,6 +4,7 @@
     *Atributos:
     
 	- lista de pacientes por atender
+	- lista de pacientes que están siendo atendidos actualmente
         - nombre del hospital
         - lista de pacientes atendidos
 	- lista de doctores que están atendiendo pacientes en el hospital
