@@ -31,5 +31,5 @@ public class RegistroDeDatos {
 }
 ```
 * Ambas aplicaciones deben ser implementadas en un mismo proyecto.
-Es decir, que las clases pedidas deben ser escritas en un mismo proyecto.
+Es decir, las clases pedidas deben ser escritas en un mismo proyecto.
 
