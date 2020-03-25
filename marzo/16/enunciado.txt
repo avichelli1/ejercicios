@@ -1,5 +1,6 @@
 
-1. Crear la clase OrdenDeCompra:
+1. Crear la clase OrdenDeCompra.
+
    Atributos:
    fecha, hora, importe a pagar,
    cliente, cantidad total de productos, forma de pago
@@ -10,7 +11,8 @@
    * método que indique si el cliente pagará en efectivo.
    * getters y setters
 
-2. Crear la clase ProductoAlimenticio: 
+2. Crear la clase ProductoAlimenticio.
+
    Atributos:
    nombre, precio, fecha de elaboración, fecha de vencimiento y peso
    Métodos:
