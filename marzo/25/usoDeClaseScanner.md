@@ -3,7 +3,10 @@
 Es una clase que nos provee la funcionalidad de poder ingresar
 valores (string, boolean, int, float, etc) mediante el teclado.
 
-Para poder realzar esto, primero es necesario importar la clase
+Esta clase ya está implementada y nos la provee la biblioteca estándar
+de Java. Y pueden ver los métodos que nos provee en [esta página](https://docs.oracle.com/javase/8/docs/api/java/util/Scanner.html).
+
+Para poder realzar ingresos por consola, primero es necesario importar la clase
 declarando la sentencia en la clase donde se utilizará:
 
 ```java
