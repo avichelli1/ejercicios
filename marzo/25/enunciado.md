@@ -19,7 +19,7 @@ Se deben registrar los siguientes datos de los productos:
 * Cada aplicación debe estar implementada en una clase llamada RegistroDeDatos y
 RegistroDeCompras, respectivamente.
 
-En el primer caso, la clase se vería así:
+* Ejemplo: en el primer caso la clase se vería así:
 ```java 
 public class RegistroDeDatos {
 
