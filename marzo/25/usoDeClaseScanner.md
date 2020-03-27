@@ -47,6 +47,7 @@ además de la letra ```f``` al final. Veamos dos ejemplos:
 ```java
 float numero = 12.34f;
 float otroNumero = 0.9999994f;
+```
 
 #### Ejemplo:
 Lo siguiente es una aplicación que sirve para ingresar un string,
