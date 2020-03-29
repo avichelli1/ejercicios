@@ -77,7 +77,6 @@ Se ha eliminado a "p2" pues se encontraba en la posición número 2
 correspondiente al índice 1.
 
 
-
 * método que retorna el tamaño del arraylist
 ```java
 listaDePersonas.size();
@@ -93,7 +92,6 @@ Segundo parámetro: elemento que será insertado en el arraylist.
 listaDePersonas.set(1,p3);
 ```
 
-
 * eliminar todos los elementos del arraylist:
 ```java
 listaDePersonas.clear();
@@ -104,6 +102,10 @@ retorna ```false``` si el arraylist tiene al menos un elemento.
 ```java
 listaDePersonas.isEmpty();
 ```
-
+#### Variables primitivas
+Las variables primitivas son las siguientes:
+```java
+char, byte, short, int, long, float, double, boolean
+```
 
 
