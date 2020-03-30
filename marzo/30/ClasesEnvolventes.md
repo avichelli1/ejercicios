@@ -24,20 +24,24 @@ Existe una clase envolvente correspondiente a cada variable primitiva.
 
 #### Colecciones
 Son estructuras de datos que sirven para asociar y organizar objetos
-según ciertas caracteristicas.
+según ciertas caracteristicas que veremos en detalle en las próximas
+clases.
 
 ##### Ejemplos de colecciones del lenguaje Java:
-```java ArrayList, Set, Map, Stack, Vector, Iterator, Queue, etc.```
+```java 
+ArrayList, Set, Map, Stack, Vector, Iterator, Queue, etc.
+```
 
 Dichas clases sólo pueden usar clases envolventes en su definición.
-Es decir que si se desea crear un ArrayList que almacene números
+
+Es decir que si, por ejemplo,se desea crear un ArrayList que almacene números
 enteros, se debe definir de la siguiente forma:
 
 ```java
-	ArrayList<Integer> numerosEnteros;
+ArrayList<Integer> numerosEnteros;
 ```
 
-Si en vez de utilizar ```Integer```, se utilizar ```int`` verán que 
+Si en vez de utilizar ```Integer```, se utilizar ```int``` verán que 
 tendrán un error de compilación.
 
 
