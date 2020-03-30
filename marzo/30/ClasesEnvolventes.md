@@ -24,8 +24,8 @@ Existe una clase envolvente correspondiente a cada variable primitiva.
 
 #### Colecciones
 Son estructuras de datos que sirven para asociar y organizar objetos
-según ciertas caracteristicas que veremos en detalle en las próximas
-clases.
+según ciertas caracteristicas (las veremos en detalle en las próximas
+clases).
 
 ##### Ejemplos de colecciones del lenguaje Java:
 ```java 
