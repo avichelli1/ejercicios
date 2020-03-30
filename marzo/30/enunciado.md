@@ -1,5 +1,5 @@
 Crear aplicaciones que sirvan para realizar las siguientes tareas.
-Debe realizarse una aplicación por ítem. Utilizar la clase Scanner.
+Debe realizarse una aplicación por ítem, es decir, en archivos ejecutables diferentes. Utilizar la clase Scanner.
 
 1. Escriba un programa que pida al usuario que escriba dos números,
 que obtenga los números del usuario y muestre el número más grande,
