@@ -41,7 +41,7 @@ enteros, se debe definir de la siguiente forma:
 ArrayList<Integer> numerosEnteros;
 ```
 
-Si en vez de utilizar ```Integer```, se utilizar ```int``` verán que 
+Si en vez de utilizar ```Integer```, se utiliza ```int``` verán que 
 tendrán un error de compilación.
 
 
