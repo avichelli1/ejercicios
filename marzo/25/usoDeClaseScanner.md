@@ -41,7 +41,7 @@ ingresar un número real por teclado.
 float realIngresado = ingreso.nextFloat();
 ```
 ##### comentario:
-Al ingresar el número real, no se puede usar el ```.``` como sustituto de la coma. 
+Al ingresar el número real por consola, no se puede usar el ```.``` como sustituto de la coma. 
 Y al escribirlo como parte del código de cualquier clase, sí se usa el punto;
 además de la letra ```f``` al final. Veamos dos ejemplos: 
 ```java
