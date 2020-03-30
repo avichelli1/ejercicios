@@ -2,12 +2,12 @@ Crear aplicaciones que sirvan para realizar las siguientes tareas.
 Debe realizarse una aplicación por ítem, es decir, en archivos ejecutables diferentes. Utilizar la clase Scanner.
 
 1. Escriba un programa que pida al usuario que escriba dos números,
-que obtenga los números del usuario y muestre el número más grande,
-seguido de las palabras “el número es más grande”.
-Si los números son iguales, imprima el mensaje “Estos números son iguales”.
+que obtenga los números del usuario y muestre el número más grande.
+Si los números son iguales, imprima el mensaje “Los números ingresados son iguales”.
 
 2. Escriba un programa que imprima los primeros n números pares positivos.
 El valor n se ingresa por teclado.
+
 Ejemplo: si n es igual a 3, se debe imprimir 2,4,6.
 
 3. Desarrollar un programa que le pida al usuario que ingrese números enteros,
