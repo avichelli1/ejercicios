@@ -104,7 +104,7 @@ public class Hospital {
         for (int i = 0; i < this.pacientesAtendidos.size(); i++) {
             Persona pacienteAtendido = this.pacientesAtendidos.get(i);
             for (int j = 0; j < this.pacientesPorAtender.size(); j++) {
-                Persona pacientePorAtender = this.pacientesPorAtender.get(i);
+                Persona pacientePorAtender = this.pacientesPorAtender.get(j);
                 if (pacientePorAtender.esIgualA(pacienteAtendido)){
                     this.pacientesPorAtender.remove(pacientePorAtender);
                 }
