@@ -31,11 +31,11 @@ Modalidad de trabajo a distancia:
 
 17. ¿Los apuntes te resultan fáciles de comprender?
 18. ¿La cantidad de ejemplos te parece suficiente?
-19. ¿UDás la IDE o la consola para compilar y ejecutar los programas realizados?
-19. En caso de que use la IDE, ¿Tuviste alguna dificultad para manejar la IDE de la materia?
-20. En caso de que no uses la IDE, ¿Porqué ha decidido no utilizarla?
-21.¿Cuál es el método de evaluación que te resulta más cómodo?
-22. ¿Qué te gustaría agregar o mejorar para aprender esta materia?
+19. ¿Usás la IDE o la consola para compilar y ejecutar los programas realizados?
+20. En caso de que use la IDE, ¿Tuviste alguna dificultad para manejar la IDE de la materia?
+21. En caso de que no uses la IDE, ¿Porqué ha decidido no utilizarla?
+22.¿Cuál es el método de evaluación que te resulta más cómodo?
+23. ¿Qué te gustaría agregar o mejorar para aprender esta materia?
 
 
 
