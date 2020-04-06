@@ -23,7 +23,7 @@ Será utilizado para que todos puedan publicar, leer las consultas que hagan y l
 Pueden realizar todas las consultas que quieran, no importa si son consultas con respecto a las primeras clases, 
 las responderé sin problemas.
 
-Con respecto a consultas relacionadas al código subido al repositorio de la materia,
+Con respecto a consultas relacionadas al código subido en el repositorio de la materia,
 una forma de señalar la línea de código desde github, es haciéndo click en en 
 el número de línea y luego verán que la misma quedará iluminada de amarillo, 
 automáticamente el link incorporará el señalamiento de la linea, pueden copiarlo
