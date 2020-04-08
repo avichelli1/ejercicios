@@ -13,7 +13,7 @@ para subir sus trabajos.
 
 2. Leer el [comentario](https://github.com/labopoo/ejercicios/blob/master/abril/8/comentarioSobreBuenasPracticas.md) sobre el tema que veremos hoy.
 
-3. Leer el [apunte](https://github.com/labopoo/ejercicios/blob/master/abril/8/buenasPracticas.pdf). Por ahora, ignoren los slides 17 y 18.
+3. Leer el [apunte](https://github.com/labopoo/ejercicios/blob/master/abril/8/buenasPracticas.pdf). Por ahora, ignoren las diapositivas 17 y 18.
 
 4. Aplicar las buenas prácticas de programación del apunte en todos
    sus trabajos.
