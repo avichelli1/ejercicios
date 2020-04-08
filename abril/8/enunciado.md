@@ -1,6 +1,6 @@
 Hola, chicos.
 
-* Con respecto al trabajo que se debía entregar hoy, les comunico que 
+* Con respecto al trabajo (temática hotel) que se debía entregar hoy, les comunico que 
 he decidido extender la fecha de entrega. La misma será el día Lunes 13 
 del corriente mes.
 
