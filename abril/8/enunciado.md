@@ -8,7 +8,7 @@ del corriente mes.
 
 1. Asegurarse de subir todos los trabajos a sus respectivos repositorios y
 asegurarse de haberme agregado como colaborador en sus repositorios.
-He actualizado el [apunte de giy y github](https://github.com/labopoo/ejercicios/blob/master/abril/1/github.md#comandos--frecuentes) con los comandos que más necesitarán
+He actualizado el [apunte de git y github](https://github.com/labopoo/ejercicios/blob/master/abril/1/github.md#comandos--frecuentes) con los comandos que más necesitarán
 para subir sus trabajos.
 
 2. Leer el [comentario](https://github.com/labopoo/ejercicios/blob/master/abril/8/comentarioSobreBuenasPracticas.md) sobre el tema que veremos hoy.
