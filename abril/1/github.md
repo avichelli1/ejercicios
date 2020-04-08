@@ -36,7 +36,7 @@ como para otros programadores que también colaboran o colaborarán en el proyec
 Este comando sirve para enviar los nuevos cambios realizados hacia el repositorio alojado
 en la página de github. Luego de ejecutar este comando, el repositorio copia/clon estará
 sincronizado con el repositorio presentae en la página de github. Es decir, tendrán exactamente
-la misma información y cambios.
+la misma información.
 
 ##### Obtener cambios 
 
