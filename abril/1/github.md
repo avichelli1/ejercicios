@@ -25,14 +25,14 @@ alojado en la página de github.
 Este comando sirve para registrar todos los cambios correspondientes a todos los archivos de la copia o clon que fueron modificados.
 
 ##### Etapa 2: confirmación con declaración sobre cambios realizados
-* ``` git commit -m "mensaje declarativo sobre el cambio que se realizó"
+* ``` git commit -m "mensaje declarativo sobre el cambio que se realizó" ```
 Este comando indica que confirmamos todos los cambios que elegimos en la epara anterior.
 El mensaje entre comillas proporcionará información sobre los cambios que se hicieron 
 dentro del proyecto en cuestión. Esta información resultará útil tanto para nosotros mismos 
 como para otros programadores que también colaboran o colaborarán en el proyecto.
 
 ##### Etapa 3: envio de cambios
-* ``` git push origin master ``
+* ``` git push origin master ```
 Este comando sirve para enviar los nuevos cambios realizados hacia el repositorio alojado
 en la página de github. Luego de ejecutar este comando, el repositorio copia/clon estará
 sincronizado con el repositorio presentae en la página de github. Es decir, tendrán exactamente
