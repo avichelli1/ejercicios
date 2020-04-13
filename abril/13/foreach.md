@@ -23,8 +23,8 @@ ArrayList<Integer> enteros = new ArrayList();
         for ( Integer numero : enteros ) {
             System.out.println(numero);
         }
-
-		    int suma = 0;
+        
+	int suma = 0;
         for ( Integer numero : enteros ) {
             suma = suma + numero;
         }
