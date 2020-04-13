@@ -46,10 +46,11 @@ En cada iteración, esta variable pasará a "guardar" el valor correspondiente
 al elemento de la colección.
 
 Es decir, teniendo en cuenta al arraylist llamado "enteros",
-en la primera iteración, la variable ```numero``` guardará el valor 3
-en la segunda iteración, la variable ```numero``` guardará el valor 2
-en la tercera iteración, la variable ```numero``` guardará el valor 1
-en la cuarta iteración, la variable ```numero``` guardará el valor 4
+
+* en la primera iteración, la variable ```numero``` guardará el valor 3
+* en la segunda iteración, la variable ```numero``` guardará el valor 2
+* en la tercera iteración, la variable ```numero``` guardará el valor 1
+* en la cuarta iteración, la variable ```numero``` guardará el valor 4
 
 #### Sector 2:
 Aquí se escribe el nombre de la colección a recorrer.
