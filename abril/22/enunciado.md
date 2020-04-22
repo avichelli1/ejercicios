@@ -9,13 +9,13 @@ Funcionalidades de la aplicación:
 * Imprimir cuáles son los productos que tienen menos de 15 unidades.
 
 Comentarios:
-Uilizar la clase producto alimenticio que fué creada anteriormente.
-Crear la clase "AppParaDeposito" y colocar allí los métodos necesarios
+* Uilizar la clase producto alimenticio que fué creada anteriormente.
+* Crear la clase "AppParaDeposito" y colocar allí los métodos necesarios
 (incluido el método main) para cumplir las funcionalidades requeridas.
-Con respecto al registro, tener en cuenta el siguiente [ejemplo](https://github.com/labopoo/ejercicios/blob/master/abril/20/ejerciciosResueltos/src/sistemas/administracion/registros/RegistroDeDatos.java).
+* Con respecto al registro, tener en cuenta el siguiente [ejemplo](https://github.com/labopoo/ejercicios/blob/master/abril/20/ejerciciosResueltos/src/sistemas/administracion/registros/RegistroDeDatos.java).
 
 Comentario muy importante:
-Tener en cuenta que queremos que nuestro código sea reutilizable y
-fácil de comprender. Recomiendo que pienses que el código que escriben
+* Tener en cuenta que queremos que nuestro código sea reutilizable y
+fácil de comprender. Recomiendo que piensen que el código que escriben
 volverá a ser leido por ustedes (o por otras personas) en el futuro y 
 tendrán que volver a entender lo que quisieron hacer.
