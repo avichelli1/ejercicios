@@ -1,0 +1,214 @@
+¿Cómo resolver el TP que nos dio la profe
+de programación?
+
+Crear una mini-calculadora programable.
+La calculadora se inicializa cargándole un programa.
+
+-> esto indica que la calculadora tendrá como componente un programa
+-> entonces, si es un componente de la calculadora, el programa
+   será un atributo de la clase calculadora.
+
+Cada programa contiene varias rutinas 
+
+-> esto indica que el programa tendrá como componentes varias rutinas
+-> si contiene rutinas, entonces deberemos crear una clase Programa
+-> además, la clase programa deberá tener como atributo una serie de 
+-> rutinas. O sea, un arrylist o hashset de rutinas. ¿Cuál elegirían?
+
+cada rutina está asociada a un nombre y consta de una secuencia de instrucciones
+
+-> si la rutina tiene un nombre, entonces "nombre" será un atributo
+-> como también menciona que consta de una secuencia de instrucciones,
+-> entonces la clase Rutina también tendrá como atributos un arraylist o
+-> un hashset de instrucciones. ¿Cuál elegirían?
+
+La calculadora opera con una pila que almacena valores numéricos, y 
+con una memoria en la que se pueden guardar variables identificadas por 
+nombre. 
+
+-> esto indica que la calculadora, además de tener un programa, tendrá
+-> como atriutos una pila y una memoria
+-> la pila debe ser un arraylist, porque los elementos tendrán un orden
+-> la memoria, no necesariamente tiene que ser un arraylist
+
+con una memoria en la que se pueden guardar variables identificadas por 
+nombre.
+ 
+-> si ustedes tienen, por ejemplo, un arraylist de variables de tipo int,
+-> donde se encuentran:
+-> ArrayList nums = new ArratList<>();
+-> int a = 1;
+-> int b = 2;
+-> int c = 3;
+-> nums.add(a);
+-> nums.add(b);
+-> nums.add(c);
+
+-> noten que no se puede hayar a la variable llamada "a" porque
+-> al momento de guardar las variables en el arraylist sólo se guardan
+-> los valores de las variables mas no los nombres de ellas.
+-> Entonces, será necesario crear una que sirva para
+-> asociar un string (que sería el nombre de la variable) y un valor.
+
+-> La clase podría llamarse, por ejemplo, "DatoAlmacenado" y tener dos 
+-> atributos: 
+-> un string y un int
+-> Entonces, la memoria sería un arraylist o hashset (elección de ustedes)
+-> de elementos de tipo Valor.
+
+Los programas pueden utilizar seis distintos tipos de operaciones: 
+cuatro operaciones aritméticas (push, add, sub, mul), 
+dos operaciones de manejo de variables (read, write).
+
+-> Hay operaciones que tendrán asociados un valor ó un nombre de variable
+-> es decir, tendrá asociado un int ó un string
+-> Y hay operaciones que no tienen asociado ningún tipo de valor
+
+-> la operación push, tiene asociado un valor
+-> las operaciones add,sub,mul, no tienen asociados ningún valor
+-> las operaciones write y read, tiene asociado un string
+
+-> Para representar una operación o instrucción, deberán crear una 
+-> clase llamada "Instruccion" que contenga como atributos:
+-> una variable para diferenciar el tipo de operación: string o int
+-> Por ejemplo la operacion push sería identificada con "push" ó 1
+-> Es a elección de ustedes. Recomiendo que sean strings.
+-> Además del atributo "nombreDeOperacion" o "numeroDeOperacion",
+-> también tendrán que tener los atributos "valorAIngresar" y 
+-> "nombreDeVariable".
+
+Las clases tendrían que tener los siguientes atributos:
+
+public class Calculadora {
+	private Programa programa;
+	private ArrayList<Integer> pilaDeValores;
+	private ArrayList<DatoAlmacenado> memoria;
+	
+	...
+}
+
+public class Programa {
+	private ArrayList<Rutina> rutinas;
+	
+	...
+}
+
+public class Rutina {
+	private String nombre;
+	private ArrayList<Instruccion> instrucciones;
+	
+	...
+}
+
+public class Instrucion {
+	private String operacion;
+	private int valor;
+	private String nombreVariable;
+	
+	...
+}
+
+------------------------------------------------------------------------
+Ejemplo:
+
+La rutina "A" contiene las instrucciones:
+	read(x)
+	push(2)
+	add
+	write(y)
+	
+*x e y son variables de tipo string.
+
+La Rutina "B" contiene las intstrucciones:
+	push(2)
+	read(x)
+	mul
+	write(x)
+
+*x es una variable de tipo string
+
+
+Operaciones aritméticas:
+
+push(número), mete una constante numérica en la pila.
+
+add, saca dos valores del tope de la pila, los suma y apila el resultado. 
+En caso de que la pila se encuentre vacía, se toma 0 como valor por defecto. En caso de que 
+haya sólo un valor, se deja tal cual está.
+
+sub, saca dos valores del tope de la pila, los resta y apila el resultado. 
+El valor en el tope de la pila es el
+sustraendo. Igual que para la suma, si la pila está vacía, el valor por defecto es 0.
+
+mul, saca dos valores del tope de la pila, los multiplica y apila el resultado. 
+Al igual que antes, si la pila está vacía, el valor por defecto es 0.
+
+
+Operaciones de manejo de variables:
+
+Las operaciones de manejo de variables permiten almacenar un valor en la memoria de 
+la calculadora.
+
+write(variable), saca el valor del tope de la pila y lo guarda en la variable indicada. 
+Si la pila está vacía, el valor por defecto es 0.
+
+ejemplo: 
+	si la pila contiene sólo al valor 34
+	las variables presentes en la memoria de la calculadora son
+	x con valor 12 (en el tope)
+	y con valor 45
+	se ejecuta la instrucción write(x)
+	entonces ahora la pila estará vacía porque el valor 34 se guardó
+	en la variable x y la memoria pasará a tener los siguientes valores:
+	x von valor 34 (en el tope)
+	y con valor 45
+											  
+read(variable), mete en la pila el valor actual de la variable indicada. 
+Si la variable no fue inicializada anteriormente, se considera que su valor 
+por defecto es 0.
+
+ejemplo: 
+	si la pila se encuentra vacía
+	las variables de la calculadora, tiene a: 
+	x con valor 7 (en el tope)
+    y con valor 32
+	se ejecuta la instrucción read(y). Entonces, la pila
+	ahora contendrá el valor 32.
+
+-------------------------------------------------------------------
+
+Cómo se utilizaría la calculadora?
+
+Programa p = new Programa();
+
+* las variables PUSH, ADD, WRITE, READ, MUL,PUSH,SUB pueden ser
+de tipo Sring o int.
+
+p.agregarInstruccion("rutinaA", new Instruccion(PUSH, 2));
+p.agregarInstruccion("rutinaA", new Instruccion(ADD));
+p.agregarInstruccion("rutinaA", new Instruccion(WRITE, "y"));
+p.agregarInstruccion("rutinaA", new Instruccion(READ, "x"));
+p.agregarInstruccion("rutinaB", new Instruccion(READ, "x"));
+p.agregarInstruccion("rutinaB", new Instruccion(MUL));
+p.agregarInstruccion("rutinaB", new Instruccion(WRITE, "x"));
+p.agregarInstruccion("rutinaB", new Instruccion(PUSH, 2));
+
+Calculadora calc = new Calculadora();
+
+calc.cargarPrograma(p);
+-> Aquí se asigna el programa p en el atributo "programa" que tiene 
+-> la calculadora.
+
+calc.ejecutar("rutinaB");
+-> En esta linea, el método ejecutar recorre el atributo "rutinas"
+-> que contiene el programa p para encontrar la rutina llamada "rutinaB"
+-> Una vez que la encuentra, recorre el atributo llamado "instrucciones"
+-> que se encuentra en la rutina encontrada y procede a ejecutar cada 
+-> instrucción que se encuentra en ella.
+
+-----------------------------------------------------------------
+comentarios:
+* pueden usar cualquier estructura de datos que hayamos visto.
+
+
+
