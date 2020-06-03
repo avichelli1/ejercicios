@@ -1,0 +1,13 @@
+1. Sea una librería, se necesita un sistema para administrar la 
+cantidad de libros de una determinada editorial que fueron vendidos.
+
+Actualmente, la librería vende libros de las siguientes editoriales:
+
+Kapelusz, Sudamericana, Atlántida, ElAteneo, Interzona, Sur y Alianza.
+
+Cada libro estará asociado a alguna editorial y un precio.
+El sistema calcula cuántos se vendieron en el día según la editorial y
+también dice cuál fué la editoriál con más libros vendidos.
+
+Usar HashMap para asociar el tipo de editorial y la cantidad de unidades
+vendidas de la misma.
