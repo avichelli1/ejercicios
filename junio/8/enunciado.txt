@@ -1,0 +1,28 @@
+Con respecto al trabajo de la clase pasada, se necesitan agregar
+funcionalidades. Ahora, no sólo administrará la cantidad de libros 
+vendidos; también calculará el precio de libros comprados por cliente.
+
+Con respecto al precio de libros, la librería ofrece un cincuenta 
+porciento de descuento al importe de cada libro que pertenece a cierto 
+conjunto de editoriales.
+
+Para ello, se debe:
+
+* crear HashSet de editoriales con descuento en la clase Librería.
+
+* crear un método que sirva para agregar editoriales con descuento al 
+HashSet.
+
+* crear un hashmap para almacenar la información de cada venta realizada.
+
+La información de la venta por cliente a recolectar es:
+* precio por libro
+* unidades por producto
+* precio total
+
+* el hashmap debe tener asociados el producto y las unidades compradas
+del mismo.
+
+* reutilizar clases realizadas anteriormente (utilizar herencia de 
+clases)
+
