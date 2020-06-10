@@ -1,0 +1,40 @@
+El trabajo consiste en implementar en Java un programa que será usado 
+por una cadena de restaurantes. 
+
+El programa deberá servir para:
+
+*) Guardar un registro diario de los pedidos tomados por los mozos.
+*) Consultar el número de mesa correspondiente a un plato.
+*) Consultar el número de cada pedido.
+*) Cuál fué el plato más pedido del día.
+*) Cuál fué el plato menos pedido del día. 
+*) Consultar el pedido que se debe entregar próximamente.
+*) Cuál fué la mesa más ocupada en el día.
+
+La cantidad de mesas variará pues si las mesas
+posicionadas dentro del local están todas ocupadas y el clima lo permite,
+se armarán nuevas mesas en la parte externa del local.
+
+El restaurante ofrece una cantidad de 5 platos:
+
+"Milanesa con puré de papas"
+"Ravioles rellenos con carne"
+"Pizza a la Piedra"
+"Polenta con salsa Fileto"
+"Arroz primavera" 
+
+Tal lista variará pues puede todos los días se agregarán o 
+quitarán platos de la carta.
+
+Cuando un cliente desocupa una mesa, la lista de pedidos asociada a la 
+mesa se debe vaciar. No sucede con la lista de pedidos del restaurane 
+pues se usará ésta información luego. Cuando un nuevo cliente ocupa una 
+mesa, la lista de platos pedidos actuales se vuelve a llenar de nuevo.
+
+Se deben proponer y programar las clases necesarias para cumplir con lo 
+pedido. 
+
+Utilizar al menos un HashMap, un HashSet y una lista.
+
+
+
