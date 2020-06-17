@@ -1,0 +1,25 @@
+1. Crear una subclase de la clase ArrayList donde se implemente
+un método que permita agregar una cantidad no determinada de
+nuevos elementos.
+
+2. Crear una subclase de la clase HashSet donde se implemente
+un método que permita agregar una cantidad no determinada de 
+nuevos elementos.
+
+3. Crear clase/s para registrar pedidos de cuadernos de 3 tipos:
+	cuaderno con 24 hojas
+	cuaderno con 48 hojas
+	cuaderno con 98 hojas
+
+	Sólo se registrará la cantidad y el precio a cobrar para 
+	cada cliente.
+	
+4. Modificar el desarrollo del ejercicio presentado el día 3 de Junio
+creando una estructura de datos (arraylist o hashset) con elementos
+de tipo enumerado llamado "Editorial". El mismo debe contener los 
+siguientes elementos definidos:
+
+Kapelusz, Sudamericana, Atlántida, ElAteneo, Interzona, Sur y Alianza
+
+
+
