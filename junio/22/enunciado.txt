@@ -1,10 +1,7 @@
 Con respecto a la aplicación correspondiente a la temática "librería",
 ahora se necesita ver la cantidad de libros vendidos por día.
 
-Para ello, será necesario asociar cada venta con el día correspondiente
-a su registro.
-
-Para ésto, será necesario:
+Para ello, será necesario:
 
 *) Crear la clase de tipos enumerados con las 
 instancias de los días de la semana (la librería abre todos los días).
