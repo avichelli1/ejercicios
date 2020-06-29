@@ -1,0 +1,8 @@
+
+La actividad de hoy consiste en arreglar los métodos del trabajo correspondiente a la calculadora que 
+quedaron sin funcionar luego haber creado subclases que diferenciaban tipos de instrucciones.
+
+Para arreglar los métodos necesitarán utilizar el último tema visto: polimosfismo.
+
+Recordar que las superclases deben tener métodos que representen un comportamiento común
+entre todas sus subclases.
