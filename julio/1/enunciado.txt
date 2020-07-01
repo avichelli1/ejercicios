@@ -1,0 +1,32 @@
+Crear una clase que represente a un alumno de una escuela. 
+Tener en cuenta que la clase Alumno deberá tener los siguientes
+atributos:
+
+* Nombre
+* Apellido
+* Lista de materias con promedio (usar HashMap que asocie Materia y 
+  promedio)
+
+La clase alumno debe ser una subclase de la clase Persona.
+
+Por otro lado, crear la clase Materia. La clase Materia deberá
+tener los siguientes atributos:
+
+* Nombre 
+* Lista de notas
+
+Analizar cómo y dónde crear los métodos:
+
+* Agregar Nota
+* Menor Nota
+* Mayor Nota
+* Promedio final (es la suma de todos los promedios correspondientes
+ a cada materia y dividrlo por la cantidad de materias existentes)
+* Agregar Materia
+* Agregar Nota
+* Promedio según materia (método que recibe el nombre de la materia 
+como parámetro)
+* Menor Nota
+* Promedio (método que no recibe ningún parámetro)
+* Menor Promedio
+* Mayor Promedio
