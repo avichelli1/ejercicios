@@ -23,10 +23,8 @@ Analizar cómo y dónde crear los métodos:
 * Promedio final (es la suma de todos los promedios correspondientes
  a cada materia y dividrlo por la cantidad de materias existentes)
 * Agregar Materia
-* Agregar Nota
 * Promedio según materia (método que recibe el nombre de la materia 
 como parámetro)
-* Menor Nota
 * Promedio (método que no recibe ningún parámetro)
 * Menor Promedio
 * Mayor Promedio
