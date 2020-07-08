@@ -1,0 +1,7 @@
+1. Crear una aplicación que tenga escrita una palabra a elección en la
+ventana principal, la misma debe
+tener un botón que, al presionarlo, debe triplicar
+la cantidad de palabra/s ya existente/s en pantalla.
+
+La pantalla principal debe tener un tamaño de
+500 pixeles por 500 pixeles.
