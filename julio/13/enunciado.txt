@@ -1,0 +1,17 @@
+Agregar una interfaz gráfica a la aplicación del punto 1
+correspondiente al enunciado del día 25 de Marzo.
+
+Cada registro de persona deberá realizarse tras hacer click en un botón que tenga 
+escrito "Registrar". Se producirá la creación de una instancia de la clase Persona
+y deberá ser almacenada en un ArrayList.
+
+Dicha instancia deberá tener asignados los valores ingresados por el usuario.
+
+La aplicación deberá imprimir en la ventana si se ha logrado realizar
+el registro o no.
+
+Comentario: por ahora, guardar la edad como string.
+
+La próxima clase les explicaré la utilización de un método
+estático:  "Integer.parseInt(String s)". El mismo servirá para 
+convertir un string a int.
