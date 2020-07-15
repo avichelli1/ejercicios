@@ -1,0 +1,8 @@
+Diseñar interfaces gráficas para los ejercicios correspondientes a las
+aplicaciones que realizaron los días 1 de Abril y diez de Junio.
+
+Los diseños deben ser descriptos con palabras y/o mostrado con imágenes.
+Se deben detallar los componentes que tendrán las ventanas según la interacción
+entre el usuario y el programa. Es decir, por ejemplo, se debe indicar qué "aparecerá" o 
+"desaparecerá" de la ventana si el usuario hace click en cierto botón.
+
