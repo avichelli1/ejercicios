@@ -1,0 +1,5 @@
+1. Arreglar la aplicación que debió realizarse el día 13 de Julio. 
+Utilizar los métodos estáticos necesarios para transformar el string ingresado en el campo de texto 
+a un número entero.
+
+2. Realizar las barras de menú para las aplicaciones diseñanadas la última clase.
