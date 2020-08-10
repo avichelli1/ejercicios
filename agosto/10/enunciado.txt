@@ -1,0 +1,6 @@
+El día de hoy deberán terminar de programar las aplicaciones diseñadas.
+
+Las aplicaciones deben cumplir con todas las funcionalidades pedidas.
+
+Asegurarse de que todo compile y pueda ejecutarse correctamente.
+
