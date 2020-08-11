@@ -5,7 +5,7 @@ necesarios.
     administrar el ingreso monetario al hotel
     y registrar las salidas/entradas de personas al mismo.
 
-    El hotel cuenta con 18 habitacionesde:
+    El hotel cuenta con 13 habitacionesde:
 
    		8 tienen capacidad para 1 persona
    			precio por día: $545
