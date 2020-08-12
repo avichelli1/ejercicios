@@ -8,4 +8,4 @@ aplicaciones java y bases de datos.
 3. Conectar las dos aplicaciones credas la clase pasada con sus respectivas
 tablas y asegurarse de que los registros de datos puedan realizarse correctamente.
 
-Comentario: en esta carpeta se encontrarán los drivers para windows (hay que descomprimirlo para agregarlo al proyecto) y linux.
+Comentario: en esta carpeta se encontrarán un archivo .zip con un driver que sirve tanto para windows como para cualquier distribución GNU/Linux. Deberán descomprimirlo y agregarlo al proyecto como se indica en el video de hoy.
