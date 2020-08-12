@@ -1,9 +1,11 @@
 1. Crear una base de datos y una tabla para cada aplicación diseñada y creada
 durante las clases anteriores. Colocar en un archivo .sql las sentencias que se
-utilizarán para crear las bases de datos y tablas.
+utilizarán para crear las bases de datos y tablas. Agregar dicho archivo en el proyecto.
 
 2. Crear la clase AccesoABaseDeDatos para poder realizar la conexión entre
 aplicaciones java y bases de datos. 
 
 3. Conectar las dos aplicaciones credas la clase pasada con sus respectivas
 tablas y asegurarse de que los registros de datos puedan realizarse correctamente.
+
+Comentario: en esta carpeta se encontrarán los drivers para windows y linux.
