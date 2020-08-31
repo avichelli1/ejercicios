@@ -1,0 +1,4 @@
+Elegir una clase entre las clases Hotel y Restaurante.
+
+A la clase elegida, realzarle las pruebas unitarias para comprobar
+su correcta funcionalidad.
