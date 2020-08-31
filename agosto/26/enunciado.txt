@@ -1,0 +1,1 @@
+La tarea de hoy es que obtengan datos de sus bases de datos y las muestren en sus aplicaciones.
