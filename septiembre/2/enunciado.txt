@@ -1,0 +1,47 @@
+1) Crear un JPanel que contenga un formulario con dos campos y un botón.
+
+Uno de los campos debe utilizarse para ingresar el usuario correspondiente
+a la base de datos. 
+
+El otro campo debe utilizarse para ingresar la contraseña correspondiente
+a la base de datos.
+
+El botón debe decir "Ingresar al sistema".
+
+En éste paso, se deberán realizar las siguientes modificaciones a la
+clase AccesoABaseDeDatos:
+
+* el  método "conectar" deberá delegar la excepción SQLException, 
+al método que lo invoca desde la clase correspondiente
+a la interfaz gráfica.
+
+* La interfaz gráfica deberá contener un JLabel que imprima si se realizó
+la conexión con éxito o no.
+
+2) Hacer que al iniciar las aplicaciones (del restaurante y el hotel) se
+muestre primero el JPanel de autenticación. 
+
+Luego de que el ingreso sea exitoso, se deberá mostrar el panel principal 
+de la aplicación con las opciones que se determinaron en su momento.
+
+3) Las aplicaciones debrán tener agregado un sector con un Jlabel que
+servirá para mostrar mensajes a los usuarios. 
+
+4) 
+Los campos de texto utilizados en las aplicaciones que deben 
+recibir sólo números, deberán considerar la situación 
+donde el usuario ingrese símbolos no admitidos.
+
+Cuando se utilice el método estático parseInt con un argumento inválido,
+deberán capturar la excepción que éste lanza (NumberFormatException),
+deberán relanzarla creando una nueva instancia con el mensaje que se mostrará en la 
+interfaz gráfica y mostrar dicho mensaje al usuario.
+
+Utilizar bloques try/catch. 
+
+5) En los campos correspondientes, tratar el evento o situación donde el usuario ingrese edades menores a cero y mayores a 100.
+
+Aclaración: en la materia, "delegar" tiene el mismo significado que "lanzar".
+
+En la sección de archivos se encuentra la imagen que se muestra al principio
+del video.
