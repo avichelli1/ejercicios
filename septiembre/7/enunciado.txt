@@ -1,0 +1,21 @@
+Aclaración para el ejercicio del punto 5 de la clase anterior:
+se espera que se cree un nuevo tipo de excepción (que sea subclase de la clase Exception) cuyo nombre sea, 
+por ejemplo, "EdadFueraDeRangoException".
+
+Debe tener asociado un mensaje llamado "ingrese edad que sea menor a cero y mayor a 100".
+
+Cuando el usuario ingrese edad fuera de rango, el método debería hacer:
+throw new EdadFueraDeRangoException 
+
+y hacer que la GUI la capture para obtener el mensaje y colocarlo en la app para el usuario.
+
+Ejercicio del día de hoy:
+* con respecto a la aplicación del día 24 de Junio, 
+
+- se debe agregar un arreglo de nombres de usuarios válidos, es decir, nombres de personas
+reales (para disminuir la dificultad del ejercicio, se deberá elegir
+20 nombres de personas que serán considerados nombres válidos).
+
+- cuando un usuario de la aplicación ingrese un string que no tenga
+sentido o un nombre que no está dentro de los 20 elegidos, la
+aplicación deberá retornar por consola un cartel que diga "nombre inválido".
