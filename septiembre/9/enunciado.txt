@@ -1,0 +1,9 @@
+1) Tomar la aplicación creada el día 24 de Junio y realizar las siguientes
+modificaciones:
+
+* hacer que la clase Mascota sea una clase abstracta.
+* hacer que le método "saludar" sea un método abstracto.
+
+2) Crear  la interface EmprendimientoGastronomico, la misma
+debe tener declarado el método "obtenerIngresoTotal".
+Hacer que la clase Restaurante implemente dicha interface.
