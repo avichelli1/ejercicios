@@ -1,0 +1,10 @@
+La tarea de hoy es crear métodos que permitan obtener información que ustedes creen
+necesitar de la base de datos y retornar esa información en HashMaps.
+ 
+Esta clase sólo deberán enfocarse en crear métodos que reciban algún tipo de estructura 
+(Lists, Maps, Sets, etc) y ustedes, a partir de ella, crear hashmaps con la información 
+que necesitan.
+ 
+Tengan en cuenta que dichos Hashmaps serán representados como objetos Json en su navegador web.
+ 
+La clase que viene explicaré en detalle la utilización de Gradle y la segunda parte de base de datos.
