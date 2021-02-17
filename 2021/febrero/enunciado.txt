@@ -1,0 +1,39 @@
+
+1) Crear la clase Persona con la siguiente información.
+
+Atributos:
+* nombre
+* apellido 
+* edad
+
+Métodos:
+* esMayorDeEdad
+* suNombreComienzaConA
+
+2) Crear la clase Alumno con la siguiente información.
+
+Atributos:
+* notas
+* materiasACursar
+
+Métodos:
+* calcularPromedio
+* obtenerCantidadDeMaterias
+
+Hacer que la clase Alumno sea subclase de la clase Persona.
+
+3) Crear un programa que reciba un nombre, un apellido y una edad.
+Con dichos datos, debe crearse un objeto de la clase Persona.
+Utilizar la clase Scanner.
+
+4) Crear un programa que reciba un nombre, un apellido, una edad,
+3 notas numéricas y dos materias a cursar. 
+Con dichos datos, debe crearse un objeto de la clase Alumno.
+Utilizar la clase Scanner.
+
+5) Ambos programas, luego de haber creado los mencionados
+objetos, deben imprimir:
+
+* el mensaje "registro exitoso" 
+* la información ingresada
+
