@@ -1,0 +1,41 @@
+Unidad 1
+Conceptos Básicos:
+Reconocimiento del entorno de programación. 
+Ejecución y Seguimiento de un programa en Java. 
+Componentes de un programa en Java. 
+Tipos de datos básicos en Java.
+
+Unidad 2
+Orientación a Objetos: 
+Clases y Objetos, definición.
+Definición de atributos, métodos y constructores.
+Herencia.
+Visibilidad de los componentes de una clase.
+
+Unidad 3
+Orientación a Objetos Avanzada:
+Concepto de Abstracción. Clases y métodos abstractos.
+Concepto de static. Métodos y atributos estáticos. 
+
+Unidad 4
+Elementos del lenguaje
+Colecciones provistas por el lenguaje, comprensión y práctica.
+
+Unidad 5
+Polimorfismo
+Comprensión del concepto de polimorfismo.
+Polimorfismo en el lengaje Java.
+
+Unidad 6
+Utilización de diferentes frameworks aplicados al lenguaje.
+Conexión con base de datos NoSQL y base de datos SQL.
+Trabajo con archivos JSON.
+
+Unidad 7
+Proyecto Final
+Utilización de todos los contenidos vistos durante el año para la realización de un proyecto final integrador.
+
+
+
+
+
