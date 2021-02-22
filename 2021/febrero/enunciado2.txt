@@ -1,0 +1,39 @@
+1) Crear dos subclases de la clase Persona.
+
+Una de ellas debe ser la clase "Madre", que tendrá los atributos:
+
+	* nombre de empresa en la que trabaja (debe ser un String)
+	* conjunto de hijos (usar hashset)
+
+La otra clase a crear es "Hijo", que tendrá los atributos:
+
+	* escuela a la que asiste
+
+- Las subclases deben tener el constructor por defecto y un constructor
+con parámetros (correspondientes a los atributos).
+
+- La clase Madre debe tener un método que devuelva un conjunto con los 
+hijos menores de edad.
+
+
+2)  Sea una librería, se necesita un sistema para calcular el precio
+final que debe abonar cada cliente que realiza una compra.
+
+Cada libro estará asociado a un nombre y un precio.
+
+Se debe crear la clase Librería con los atributos:
+- libros vendidos (usar HashMap para asociar el tipo de editorial y la cantidad de unidades
+vendidas de la misma)
+- nombre de Librería
+
+Se debe crear la clase Sistema. En ella, mediante la utilización de la clase Scanner,
+debe permitir:
+
+- ingresar ventas (donde se ingresa el nombre del libro y el precio) y
+  mostrar precio final a abonar por el cliente
+  
+- mostrar libros vendidos
+
+- mostrar ingreso total de dinero
+
+
