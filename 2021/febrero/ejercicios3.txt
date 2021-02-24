@@ -1,4 +1,4 @@
-Crear una aplicación web de Alta-Baja-Modificacion (ABM). 
+Crear una aplicación de Alta-Baja-Modificacion (ABM). 
 
 La misma deberá utilizar una ApiRest desarrollada con el framework
 SpringBoot. 
