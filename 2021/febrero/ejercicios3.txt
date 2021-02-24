@@ -1,8 +1,5 @@
 Crear una aplicación de Alta-Baja-Modificacion (ABM). 
 
-La misma deberá utilizar una ApiRest desarrollada con el framework
-SpringBoot. 
-
 El "alta de mascota" consiste en registrar en el sistema una nueva mascota. 
 Para ello, se deberá ingresar el nombre de la mascota, nombre del dueño y 
 el tipo de mascota que se registrará. El nombre de la mascota debe ser único.
