@@ -1,0 +1,60 @@
+Crear una aplicación web de Alta-Baja-Modificacion (ABM). 
+
+La misma deberá utilizar una ApiRest desarrollada con el framework
+SpringBoot. 
+
+El "alta de mascota" consiste en registrar en el sistema una nueva mascota. 
+Para ello, se deberá ingresar el nombre de la mascota, nombre del dueño y 
+el tipo de mascota que se registrará. El nombre de la mascota debe ser único.
+
+La "baja de mascota" consiste en eliminar la información registrada de 
+determinada mascota.
+
+La "modificación de mascota" consiste en realizar alguna modificación
+a alguno de los atributos de alguna mascota.
+
+Las mascotas pueden ser:
+
+	Perros
+	Gatos
+
+Tres de las mascotas tienen un saludo en particular:
+
+	Para los perros el saludo es “guau”
+	Para los gatos el saludo es “miau”
+
+Tienen como atributos:
+
+- un número entero que representa el nivel
+de felicidad del mismo. El mismo comienza en 1.
+
+- el nombre de su dueño/amo
+
+1. crear una interfaz llamada "InterfaceMascota" 
+que contenga la declaración del método "saludar".
+
+2. La interfaz deberá ser implementada por una clase abstracta
+llamada "AbstractMascota".
+
+Recordar que las clases abstractas deberán tener los atributos
+y métodos que tendrán en común sus subclases.
+
+3. Crear una clase que se llame ABM, la misma debe tener creado el método main.
+Dentro del método main, se deberá comenzar a utilizar la clase Scanner para 
+desarrollar la aplicación. 
+
+- Debe existir la opción “Saludar”. La misma solicita el nombre al usuario 
+y el nombre de la mascota a la que desea saludar.
+
+- Si el usuario resulta ser el dueño de la mascota, se debe mostrar el saludo de la
+mascota con letras minúsculas (por ejemplo: guau). Además, su nivel de 
+felicidad aumenta un punto.
+
+- Si el usuario no es el dueño de la mascota: se debe mostrar el saludo
+de la mascota en letras mayúsculas y con un signo de exclamación (por ejemplo: GUAU!).
+Además, su nivel de felicidad disminuye un punto.
+
+4. La aplicación debe dar la opción de poder eliminar la mascota.
+
+5. La aplicación debe dar la opción de poder modificar el nivel de felicidad por
+un número que ingrese el usuario.
