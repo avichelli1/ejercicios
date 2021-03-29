@@ -10,8 +10,12 @@ void agregarNumeros(vector<int> &numeros, vector<int> elementosNuevos);
 
 void imprimirValores(vector<int> numeros);
 
-void eliminarImpares(vector<int> numeros);
+void eliminarImpares(vector<int> &numeros);
 
-vector<vector<int> > multiplicarMatriz(vector<vector<int> > matriz);
+vector<int> eliminarImparesOtraForma(vector<int> numeros);
 
-void mezclarMatrices(vector<vector<int> > matrizA, vector<vector<int> > matrizB);
+void imprimirString(string palabra);
+
+void imprimirNumero(int numero);
+
+void imprimirBool(bool valor);
